@@ -6,7 +6,7 @@ IOTA is a non-profit foundation researching next generation blockchains.  Join N
 
 ## Speaker Event - Town Hall Topics
 
-- How to build a successful tech career - one man's journey from business owner to international project leader to researcher to professor to high-tech urban gardener.  What does his journey inspire you to build?
+- How to build a successful tech career - one man's journey from business owner to international project leader to researcher to professor to high-tech urban gardener.  Thus, his title "Technologist".  What does his journey inspire you to build?
   
 - IOTA Coffee Supply Chain - track coffee across borders and through customs from bean to cup
 

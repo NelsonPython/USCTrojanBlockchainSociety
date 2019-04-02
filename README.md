@@ -20,6 +20,13 @@ IOTA is a non-profit foundation researching next generation blockchains.  Join N
 
 ## Feedback 
 
-- Ideas and improvements
+5 = great 
+0 = needs improvment
 
-- Get involved
+#A. From 0-5, rate the format of IOTA Developers Education portal
+
+#B. From 0-5, rate the content of the IOTA Developers Education portal
+
+#C. If an alien landed in your dorm and offered to give you advanced blockchain or IoT technology, what would you ask for?
+
+Email your feedback to Nelson@iota.org

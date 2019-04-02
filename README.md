@@ -32,5 +32,11 @@ IOTA is a non-profit foundation researching next generation blockchains.  Join N
 
 Email your feedback to Nelson@iota.org
 
-For example I could send, A-5, B-5, C- 3d printer
-meaning I rate the format as great, content as great, and I would ask the alien for a 3D printer
+For example I could send, 
+
+#A-5  I like the format because it is easy-to-use
+
+#B-5  I like the content because it is concise and the demos work
+
+#C- 3d printer to print housing for the devices rather than using legos
+

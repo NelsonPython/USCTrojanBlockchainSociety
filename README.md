@@ -1,4 +1,4 @@
-# USC Trojan Blockchain Society - Speaker Event
+# USC Trojan Blockchain Society - April 2, 2019 Speaker Event
 
 ## Nelson, IOTA Technologist
 

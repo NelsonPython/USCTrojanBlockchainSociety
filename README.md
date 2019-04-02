@@ -30,3 +30,6 @@ IOTA is a non-profit foundation researching next generation blockchains.  Join N
 #C - if an alien landed in your dorm and offered to give you advanced blockchain or IoT technology, what would you ask for?
 
 Email your feedback to Nelson@iota.org
+
+For example I could send, A-5, B-5, C- 3d printer
+meaning I rate the format as great, content as great, and I would ask the alien for a 3D printer

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="course.css">
+	<title>IOTA Developers Education</title>
+</head>
+<body>
+
+<div id="gradSeaGreen" align=center>
+	<br>
+	<div class="headerCard">
+	<h3 align=center>Send and receive transactions using the API</h3>
+
+	<br>
+	Transactions are used to store data on the Tangle and to query data from the Tangle.
+	You can create complex and powerful transactions for many applications.
+	Get started by learning these simple transactions:
+
+	<ol>
+	<li>Sending and fetching zero-value transactions</li>
+	<li>Sending and fetching value transactions used to deposit or withdraw IOTA tokens</li>
+	<li>Sending and fetching data transactions used to send data</li>
+	</ol>
+
+	Lesson 2 teaches how to send a transaction using Masked Authenticated Messaging (MAM).
+
+	<br><br>
+	<h5>Sending and fetching zero-value transactions</h5>
+	Learning zero-value transactions provides a foundation for learning value transactions, data transactions and messages.  They are called zero-value because the value field contains 0 (zero) IOTA tokens.
+	<br><br>
+	<p align=center>
+	<a class="w3-btn" href="https://github.com/NelsonPython/Test/blob/master/tutorials/2.1-send-hello.md">Send zero-value transaction</a>
+	<br><br>
+	
+
+<a class="w3-btn" href="https://github.com/NelsonPython/Test/blob/master/tutorials/2.2-fetch-hello.md">Receive zero-value transaction</a>
+	</p>
+
+	<br><br>
+	<h5>Sending and fetching value transactions</h5>
+	Value transactions are used to send and receive IOTA tokens.  The value field contains the number of IOTA tokens to be sent.
+	Sending tokens requires you to acquire some IOTA tokens and store them in an address.
+	Fortunately, the DevNet Faucet "drips" IOTA test tokens that you can use for practice.
+	While these test tokens function like currency, they cannot be exchanged for other cryptocurrency or fiat currency.
+	Once you have tokens, you must keep track of your balance.  Follow these steps to send your first value transactions:
+
+	<p align=center>
+	<br>
+	<a class="w3-btn" href="https://github.com/NelsonPython/Test/blob/master/tutorials/3.1-create-address.md">
+
+Create an address</a>
+	<br><br>
+	<a class="w3-btn" href="https://github.com/NelsonPython/Test/blob/master/tutorials/3.2-check-balance.md">
+
+
+
+Check your balance</a>
+	<br><br>
+	<a class="w3-btn" href="https://faucet.devnet.iota.org/">
+
+Acquire IOTA test tokens</a>
+	<br><br>
+	<a class="w3-btn" href="https://github.com/NelsonPython/Test/blob/master/tutorials/4.send-tokens.md">
+
+Send IOTA tokens</a>
+	</p>
+
+	<br><br>
+	<h5>Sending and fetching data transactions</h5>
+
+	Data transactions are zero-value transactions that have data stored in the tag or message fields.
+	Data stored in the message field must be converted to trytes.  The tryte alphabet is "A-Z9".  
+	ZMQ is a tool that can be used to query data transactions stored on the Tangle.
+	<br><br> 
+	<p align=center>
+	<a class="w3-btn" href="https://github.com/NelsonPython/Test/blob/master/tutorials/5.1-send-data.md">Send data</a>
+	<br><br>
+	
+
+<a class="w3-btn" href="https://github.com/NelsonPython/Test/blob/master/tutorials/5.2-fetch-data.md">Receive data</a>
+	<br><br>
+	
+
+<a class="w3-btn" href="https://github.com/NelsonPython/Test/blob/master/tutorials/6-zmq-fetch-data.md">
+
+Receive data using ZMQ</a>
+	</p>
+
+	<br><br>
+	<div class="w3-card teal-l5">
+	<h5 align=center>Knowledge check</h5>
+	<small>
+	Which of these is a valid tryte string?
+	<br>(a)	123456789
+	<br>(b)	rbtRBTC9D9DCDQAEASBYBCCKX
+	<br>(c)	RBTC9D9DCDQAEASBYBCCKBFA
+	<br>(d)	123ASDFasdf
+
+	<br><br><hr><br>
+	Value is stored in the ___________.
+	<br>(a) seed
+	<br>(b) bundle
+	<br>(c) address
+	<br>(d) hash
+	</small>
+	</div>
+	<br><br>
+<p align=center><a class="w3-btn" href="03-TransactionsSendFetchL2.htm">
+IOTA Masked Authenticated Messaging (MAM)</a></p>
+
+  </div>
+</article>
+</body>
+</html>

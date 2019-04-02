@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="course.css">
+	<title>IOTA Developers Education</title>
+</head>
+<body>
+
+<div id="gradSeaGreen" align=center>
+	<br>
+	<div class="headerCard">
+	<h3 align=center>Programming your water conservation lab</h3>   
+	This lab has two parts:
+	<ul>
+	<li>A simulated contract between the Raspberry Pi water conservation device and the city water department</li>
+	<li>A program that monitors plants and sends an IOTA value transaction to buy water when plants are thirsty</li>
+	</ul>
+	<br>
+	<h5>Simulated contract with city water department</h5>
+	The simulated contract is very simple.  
+	Two questions appear at the command prompt:
+	<ul>
+	<li>Who is the contract with? <i>City Water Department</i></li>
+	<li>What is the water allotment, in gallons? <i>10</i></li>
+	</ul>
+	For purposes of this lab, 1 gallon of water costs 1 IOTA token.
+	In order to fund the water conservation device, you must generate a seed and attach an address.  Then, you must use this address to acquire IOTA test tokens from the DevNet faucet.
+	Using your new seed plus the responses to these questions, two json files are created:
+	<ul>
+	<li>Allotment.json - contains the budget for purchasing water
+	<li>Water.json - contains the addresses that will be used to buy water
+	</ul>
+	Because this is a demo, there is also a reclaimer function that keeps track of token balances so test tokens can be re-used.
+	<br><br>
+	<h5>Watering plants</h5>
+	The rain sensor reports whether it is raining on GPIO Pin 17.  
+	The soil moisture sensor reports soil dampness on GPIO Pin 23.
+	An LED is controlled by GPIO Pin 25.
+	<br><br>
+	In the garden, Raspberry Pi Zero W runs headless (without a monitor).  It texts its IP address so you can connect via SSH, if necessary.
+	Then, it parses the json files into lists and begins listening for sensor events.
+	If the soil is too dry, it checks for rain.
+	If it is not raining, then it sends a value transaction using the next address in the water.json file.
+	When the budget is spent, it reports that it needs a new allotment.
+	<br><br>
+	<p align=center><a class="w3-btn" href="https://github.com/NelsonPython/WaterConservation/blob/master/README.md">Water Conservation Lab</a></p>
+
+	<br>
+	<h5>Future Plans</h5>
+	First, we have permission from a local urban gardener to test the watering apparatus and sensor settings
+		and compare the health of this plant with a similar plant that is watered by timed sprinklers without sensors.
+	<br>
+	<img src="images/WCoutdoor.jpg"	style="float:left;width:280px;padding:20px;">
+	<img src="images/WCfuture.jpg"	style="float:left;width:290px;padding:20px;">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	Based on the result of these experiments, we have permission to test this device on campus at a local university and at a city park.
+	How can you get involved?
+	<br><br>
+	- 3D printing waterproof housing for the device
+	<br><br>
+	- Data science to evaluate the experiments
+	<br><br>
+	- Code review to improve the programming
+	<br><br>
+	- Add feedback loops to automate sensor settings
+	<br><br>
+	- Other great ideas that you think of...
+	<br><br>
+
+</div>
+<br><br>  
+</div>
+</body>
+</html>
+

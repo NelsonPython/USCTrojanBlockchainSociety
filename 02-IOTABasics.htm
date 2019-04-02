@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="course.css">
+	<title>IOTA Developers Education</title>
+</head>
+<body>
+
+<div id="grad2" align=center>
+	<br>
+	<div class="headerCard">
+		<img src="images/iotaWorld.png" style="float:right;width:200px;padding:20px;border-radius:15px">
+		
+		<br><h3 align=center>IOTA Basics</h3>
+		IOTA is a network where value or data can be exchanged by sending and receiving transactions.
+		Designed for IoT then expanded to supply chain, digital identity, smart energy, and more.  
+		This micro-course teaches how to get started.
+		<br><br>
+	</div>
+</div>
+
+<article class="w3-row">
+  <div class="w3-third w3-container" align=center>
+	<br><br><br>
+	<table width=200>
+	<tr>
+	<td>
+	<h4>Overview</h4>
+	1 hour
+	<br>
+	2 lessons
+	<br><br>
+	<div class="purpleCard">
+		Prepares you to learn:<br> 
+		<a href="03-Transactions.htm">IOTA Transactions</a>
+		<br>
+	</div>
+	<br><br>
+	<h4>Instructors</h4>
+	<img src="images/Nelson.png" width=50>Nelson designs micro-courses to support training the global IOTA community and he teaches locally in Southern California  
+	<br><br>
+	<img src="images/Jake.png" width=50>Jake is a multi-lingual, technical writer who writes documentation to support the global IOTA community
+	</td></tr>
+	</table>
+  </div>
+
+  <div class="w3-third w3-container">
+	<br><br>
+	<h4>Lesson 1:  "Hello IOTA World"</h4>
+	<br>
+	Welcome to IOTA!  The open-source IOTA toolkit is always expanding and maturing.
+	The best way to learn is by getting involved.
+	<br><br>
+	<a class="w3-btn" href="https://docs.iota.works/">Read IOTA developer documentation</a>
+	<br><br>
+	<a class="w3-btn"  href="https://www.youtube.com/channel/UClxDa0qkOqxIguokXPhnuOA">Watch videos about IOTA</a>
+	<br><br>
+	<a class="w3-btn"  href="https://github.com/iotaledger">Review the IOTA github repo</a>
+	<br><br>
+	<a class="w3-btn"  href="https://www.reddit.com/r/Iota/comments/6rkfhq/iota_discord/">Chat with IOTA community members</a>
+	
+	<br><br>
+	Traditional courses start by explaining lots of theory but most developers want to run a "hello-world" demo to see the software in action.
+	In this micro-course, we'll start with "Hello IOTA World".  If you prefer to learn theory first, skip to <a class="w3-btn" href="">The Tangle</a>
+	<br><br>
+
+	If you are new to IOTA, you may want to watch these videos showing an overview of the IOTA vision.
+	<br><br>
+	<a class="w3-btn" href="videos/WhatisIOTA.mp4">What is IOTA?</a>
+	<br><br>
+	<a class="w3-btn" href="videos/IntroducingIOTASmartCharging.mp4">Introducing IOTA Transactions</a>
+	<br><br>
+	And you may want to learn these new terms:
+	<ul>
+	<li><a href="https://docs.iota.works/docs/getting-started/0.1/introduction/what-is-a-seed">seed</a></li>
+	<li><a href="https://docs.iota.works/docs/getting-started/0.1/introduction/what-is-a-transaction">transaction</a></li>
+	<li><a href="https://docs.iota.works/docs/iri/0.1/introduction/overview">IRI Node</a></li>
+	<li><a href="https://docs.iota.works/docs/getting-started/0.1/introduction/what-is-the-tangle">the Tangle</a></li>
+	</ul>
+	"Hello IOTA World" has two parts:
+	<br>
+	<ul>
+	<li>Locate an IRI Node
+	<li>Send a transaction</li>
+	</ul>
+	Click here for detailed instructions:
+	<a class="w3-btn" href="https://docs.iota.works/docs/getting-started/0.1/tutorials/send-a-zero-value-transaction-with-nodejs">Hello IOTA World</a>
+	<br><br><br><br><br>
+	<img src="images/thumbsUp.png" style="float:left;width:100px;padding:10px;"> 
+	Copy the bundle string from your output.  
+	In Lesson 2, you will learn how to view your transaction using the DevNet Tangle Explorer
+	<br><br><br><br>
+	<p align=center><a class="w3-btn" href="02-IOTABasicsL2.htm">Lesson 2 - DevNet Tangle Explorer</a></p>
+
+  </div>
+  <div class="w3-third w3-container">
+	<br><br>
+	<div class="w3-card lightDenim">
+
+	<H4 align=center>Knowledge Check</H4>
+	<br>
+<small>
+	1. What is an IRI Node?
+	<br>(a) IOTA tokens that have value
+	<br>(b) IOTA reference implementation that defines the IOTA protocol
+	<br>(c) seed generators
+	<br>(d) a smart contract between two or more parties
+
+	<br><br><hr><br>
+
+2. What is a seed?
+	<br>(a) accounts from which transactions are sent and received
+	<br>(b) a secret password that's used to create addresses and to sign bundles whose transactions withdraw IOTA tokens
+	<br>(c) a password that can be reset by the helpdesk if you lose it
+	<br>(d) any combination of letters and numbers
+	<br><br><hr><br>
+
+<pre>
+3. Which is a valid seed, assuming each contains 81 trytes:
+(a)SENDER ONE 9999999999999999999999999999999999999999999999999999999999999999999999
+(b)SENDERSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+(c)SENDERsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+(d)1SENDERSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+</pre>
+	<br><hr><br>
+
+4. According to the docs, what are two basic types of transactions?
+<br>(a) Bundles and seeds
+<br>(b) Debit and credit
+<br>(c) Withdraw and deposit
+<br>(d) Input and output
+	<br><br><hr><br>
+
+5.  IRI nodes are the core of an IOTA network, and are responsible for which key functions:
+<br>(a) Validate transactions
+<br>(b) Store valid transactions in a ledger
+<br>(c) Allow clients to interact with the IRI and have their transactions appended to the ledger
+<br>(d) All of the above
+	<br><br><hr><br>
+
+6.What is the Tangle?
+<br>(a) accounts from which transactions are sent and received
+<br>(b) the reference implementation that defines the IOTA protocol
+<br>(c) the data structure that's formed by the connections among a node's transactions
+<br>(d) a secret password that's used to create addresses and to sign bundles whose transactions withdraw IOTA tokens
+
+	<br><br><hr><br>
+
+7. Transactions in the Tangle can be in one of two states:
+<br>(a) Input or output
+<br>(b) Seed or address
+<br>(c) Pending or confirmed
+<br>(d) Atomic or individual
+
+<br><br>
+</small>
+</div>
+
+	<br><br>
+
+  </div>
+</article>
+</body>
+</html>

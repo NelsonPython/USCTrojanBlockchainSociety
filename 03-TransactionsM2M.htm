@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="course.css">
+	<title>IOTA Developers Education</title>
+</head>
+<body>
+
+<div id="gradSeaGreen" align=center>
+	<br>
+	<div class="headerCard">
+	<h3 align=center>Coffee farm water conservation lab</h3>
+	To grow coffee, farmers can use devices to monitor soil, sunlight, and water. 
+	This water conservation lab demonstrates a device with sensors to monitor plants that uses IOTA tokens to buy water when the plants are thirsty. 
+	It is useful for learning machine-2-machine transactions.
+
+	You will need a Raspberry Pi Zero W plus a rain sensor and a soil moisture sensor
+	<br><br><br>
+	<img src="images/WCwhite.jpg"	style="float:left;width:280px;padding:20px;">
+	<img src="images/RasPiZeroHeader.jpg"	style="float:left;width:280px;padding:20px;">
+	<img src="images/rain.png" 		style="float:left;width:200px;padding:20px;">
+	<img src="images/soilMoisture.png" 	style="float:left;width:200px;padding:20px;">
+
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<h6>Raspberry Pi Zero W</h6>
+	For this lab, you need a <a class="w3-btn" href="https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-zero-w">Raspberry Pi Zero W Mega Kit</a> 
+	with GPIO header attached.
+	To connect directly to your Raspberry Pi Zero W, you will also need a miniHDMI > HDMI adaptor and a microUSB > USB adaptor.
+	Power Raspberry Pi with a wall plug or a USB battery capable of powering mobile phones.
+	<br><br>
+
+	<h6>Raspbian Operating System</h6>
+	The Mega Kit includes a 16GB MicroSD with the OS installed.
+	You can also <a class="w3-btn" href="https://www.raspberrypi.org/downloads/raspbian/">download and install Raspbian</a> 
+	<br><br>
+
+	<h6>Interacting with Raspberry Pi Zero W</h6>
+	There are two ways to interact with Raspberry Pi: directly and over SSH using software like PuTTY.  When deciding how to connect directly, remember Raspberry Pi Zero W only has one USB port.
+	It is possible to switch between a USB mouse and a separate USB keyboard but it is clumsy. 
+	<br><br>
+
+	<h6>Soil Moisture Sensor</h6>
+	For this lab, you will need a soil moisture sensor that is compatible with Raspberry Pi Zero W.  I used this <a class="w3-btn" href="https://www.gearbest.com/lcd-led-display-module/pp_1604163.html?wid=1433363&currency=USD&vip=760238&gclid=Cj0KCQjwpsLkBRDpARIsAKoYI8x1T4wmov_TDkq-kW8SxcmUoPZ4Hd2qVWGTuLH7CbQpDiq52pb_7-waAqLPEALw_wcB">soil moisture sensor</a>
+	<br><br>
+
+	<h6>Rain Sensor</h6>
+	For this lab, you will need a rain sensor that is compatible with Raspberry Pi Zero W.  I used this <a class="w3-btn"  href="https://vetco.net/products/rain-sensor-for-arduino?gclid=Cj0KCQjwpsLkBRDpARIsAKoYI8wKTwBgbq5SNOmaHMP4iscdzGpmI43vcQTPGk2PTrsVZwnxWqwvWxEaAqIxEALw_wcB">rain sensor</a>
+	<br><br>
+
+	<div align=center>
+	<table class="w3-hoverable">
+	<tr><td><h5 align=center>Next Steps</h5></td></tr>
+	<tr><td><a href="03-TransactionsM2M-Wiring.htm"><h6>Wiring your water conservation lab</h6>Learn how to connect the soil moisture sensor and rain sensor to the Raspberry Pi Zero W</td></tr>
+	<tr><td><a href="03-TransactionsM2M-Programming.htm"><h6>Programming your water conservation lab</h6>Use Pyota, a Python API developed by the IOTA community, to 
+		read sensor data and simulate sending IOTA tokens to buy water when the coffee plants are thirsty</td></tr>
+	</table>
+	<br><br>
+	</div>
+</div>
+<br><br>  
+</body>
+</html>

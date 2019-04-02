@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="course.css">
+	<title>IOTA Developers Education</title>
+</head>
+<body>
+
+<div id="gradSeaGreen" align=center>
+	<br>
+	<div class="headerCard">
+		<h3 align=center>Supply Chain Demo</h3>
+		Four important actors in the coffee supply chain are the shippers, forwarders, customs officials, and port workers.
+		Use this demo to practice making different types of transactions from these perspectives
+		in order to track a shipping container of coffee beans as it moves across borders and through ports
+	<br><br>
+	<p align=center><a class="w3-btn" href="https://www.youtube.com/watch?v=o5jX8VAyzUs">Click here to watch the tutorial</a>
+	<br><br>
+	<a class="w3-btn" href="https://tradedemo.iota.org/#/login">Click here to try the Supply Chain Demo</a>
+	</p>
+	<br>
+
+	<h5>Exercise:  Shipper</h5>
+	Login as Shipper to prepare a shipment of coffee beans. Create a new container by filling in:
+	<br>
+	<img src="images/shipper.svg" style="float:left;width:230px;padding:50px;">
+	<ul>
+	<li>Container ID:	<i>your last name</i></li>
+	<li>Departure Port:	Rotterdam</li>
+	<li>Destination Port: Singapore</li>
+	<li>Cargo: Coffee</li>
+	<li>Container Type: Dry Storage</li>
+	</ul>
+	A digital twin of your container is created on the Tangle and a MAM channel is opened for recording the journey of your container.
+	Click on the Tangle button to see the data related to your container.  
+	The status shows the date your container was created.
+	Logout as shipper
+	<br><br>
+
+
+	<h5>Exercise: Forwarder</h5>
+	Login as Forwarder and search for your container by entering your container ID.  Click the Confirm Gate-in button.
+	<img src="images/forwarder.svg" style="float:left;width:230px;padding:50px;">
+	Now, status shows two boxes:
+	<ol>
+	<li>Date shipper created the container</li>
+	<li>Date forwarder confirmed gate-in</li>
+	</ol>
+	Logout as Forwarder
+	<br><br><br><br><br><br>
+
+
+	<h5>Exercise:  Customs</h5>
+	Login as a customs official and search for your container by entering your container ID
+	<img src="images/customs.svg" style="float:left;width:230px;padding:50px;">
+	Click the Confirm Container Cleared for Export button.
+	Now the status shows three boxes:
+	<ol>
+	<li>Date shipper created the container</li>
+	<li>Date forwarder confirmed gate-in</li>
+	<li>Date customs confirmed that the container was cleared for export</li>
+	</ol>
+	Logout as Customs
+	<br><br><br><br><br><br>
+
+	<h5>Exercise:  Port</h5>
+	Login as a port official and search for your container by entering your container ID
+	<img src="images/port.svg" style="float:left;width:230px;padding:50px;">
+	Click the Confirm Container Loaded on Vessel button.
+	Now the status shows four boxes:
+	<ol>
+	<li>Date shipper created the container</li>
+	<li>Date forwarder confirmed gate-in</li>
+	<li>Date customs confirmed that the container was cleared for export</li>
+	<li>Date port confirmed the container was loaded on the vessel</li>
+	</ol>
+	Logout as Port
+	<br><br>
+
+	<br><br>
+	<div class="seaGreenCard teal-l5">
+	<h5 align=center>Review</h5>
+	Login as shipper to see the status of your shipment
+	<br><br>
+	Click the Tangle button.  You should see four events.
+	Expand each event to see the raw data stored on the Tangle
+	<br><br>
+	Click on the Documents button to see the documents pertaining to your shipment
+	<br><br>
+	Click on the Temperature button to see sensor data related to your shipment
+	</div>
+	<br><br>
+  </div>
+</body>
+</html>

@@ -12,6 +12,12 @@ IOTA is a non-profit foundation researching next generation blockchains.  Join N
 
 - IOTA Data Marketplace - setup your own marketplace to publish or sell data
 
+## Links
+
+[Nelson Bio](http://www.NelsonGlobalGeek.com)
+
+[IOTA](https://www.iota.org)
+
 ## Feedback 
 
 - Ideas and improvements
